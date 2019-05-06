@@ -8,3 +8,9 @@ article, aside, figure, footer, hgroup {
     display: block;
     text-align: center;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}

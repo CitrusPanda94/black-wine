@@ -1,5 +1,6 @@
-<?php get_header();
-
+<?php get_header(); ?>
+<h1>Test Page</h1>
+<?php
 get_template_part('template-parts/content');
 
 get_footer(); ?>

@@ -11,8 +11,8 @@
   }
   
   .nav-collapse li {
-    width: 100%;
-    display: block;
+    display: inline;
+    /* width: 100%; */
   }
   
   .js .nav-collapse {
