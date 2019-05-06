@@ -1,0 +1,10 @@
+/*
+Theme Name: Black Wine
+Author: TJ Lee
+Version: 1.0.0
+*/
+
+article, aside, figure, footer, hgroup {
+    display: block;
+    text-align: center;
+}
