@@ -1,10 +1,9 @@
 <?php get_header(); ?>
-<section class="section-contact">
+<section class="section-comments-single">
     <div class="container">
-        <h1>The movie - Contact</h1>
-        <p>This is the contact page.</p>
+        <h1>Test Single!!!!!!!</h1>
     </div>
-</contact>
+</section>
 <?php
 get_template_part('template-parts/content');
 

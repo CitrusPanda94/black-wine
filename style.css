@@ -4,7 +4,18 @@ Author: TJ Lee
 Version: 1.0.0
 */
 
-article, aside, figure, footer, hgroup {
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+article, figure, footer, hgroup {
     display: block;
     text-align: center;
 }
@@ -14,3 +25,41 @@ header {
     justify-content: space-between;
     padding: 15px 50px;
 }
+
+/* header nav {} */
+
+header nav a {
+    padding-right: 15px;
+    font-family: 'Pacifico', cursive;
+
+    color: #6bc4cb;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #f4511e;
+    opacity: 1;
+}
+
+.section-landing div {
+    background-color: red;
+    height: 20px;
+}
+
+.section-blog {
+    display: flex;
+}
+
+.widget-area {
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Josefin Sans', sans-serif; */
