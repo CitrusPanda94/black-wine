@@ -19,5 +19,13 @@
     <nav class="nav-collapse">
         <?php wp_nav_menu(array('theme_location' => 'primary-menu')) ?>
     </nav>
+   
+    <?php if(is_page('contact')) : ?>
+    <!-- <h1>I am a page.</h1> -->
+    <?php endif; ?>
+
+    <?php if(is_page('home')) : ?>
+    <!-- <h1>I am the homepage(blog).</h1> -->
+    <?php endif; ?>
 </header>
 
