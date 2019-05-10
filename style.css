@@ -23,10 +23,12 @@ article, figure, footer, hgroup {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding-top: 10px;
 }
 
-/* header nav {} */
+header nav {
+    padding-top: 10px;
+}
 
 header nav a {
     padding-right: 15px;
@@ -43,17 +45,27 @@ header nav a:hover {
     opacity: 1;
 }
 
-.section-landing div {
-    background-color: red;
-    height: 20px;
+.section-landing .hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
-.section-blog {
-    display: flex;
+.section-landing .hero-blurb {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/* .section-blog {
+    display: flex;
+} */
 
 .widget-area {
     list-style-type: none;
+    text-align: right;
 }
 
 footer {
