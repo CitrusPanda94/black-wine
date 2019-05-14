@@ -11,10 +11,10 @@
     <!-- <div class="container"> -->
         <div class="hero">
             <section class="hero-blurb">
-                <h2>WordPress is killing me!</h2>
-                <button>Agree?</button>
+                <h2>WHAT A REMARKABLE PLACE FOR WINE</h2>
+                <p>Three organic hillside vineyards on clay limestone soils in North Canterbury.</p>
+                <button>lol?</button>
             </section>
-            
         </div>
     <!-- </div> -->
 </section>

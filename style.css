@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    background-color: #333;
 }
 
 header nav {
@@ -33,7 +34,6 @@ header nav {
 header nav a {
     padding-right: 15px;
     font-family: 'Pacifico', cursive;
-
     color: #6bc4cb;
     margin: 4px 2px;
     opacity: 0.6;
@@ -51,12 +51,38 @@ header nav a:hover {
     background-position: center;
 }
 
-.section-landing .hero-blurb {
+
+.hero-blurb {
+    text-align: center;
     position: relative;
     float: left;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.hero-blurb h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.hero-blurb p {
+    color: #fff;
+}
+
+.hero-blurb button {
+    background-color: #6bc4cb;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+}
+
+.hero-blurb button:hover {
+    background-color: pink;
 }
 
 /* .section-blog {

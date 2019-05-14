@@ -19,3 +19,4 @@ $wp_customize->add_control('bw_contact_blurb_control', array(
     'label' => __('Blurb')
 ));
 
+?>
