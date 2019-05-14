@@ -16,10 +16,10 @@ if (!function_exists('bw_create_post_types')) :
     function bw_create_post_types()
     {
         register_post_type(
-            'bw_varieties',
+            'bw_shops',
             array('labels' => array(
-                'name' => __('Varieties'),
-                'singular_name' => __('Variety')
+                'name' => __('Shop'),
+                'singular_name' => __('Shop')
             ),
             'public' => true,
             'has_archive' => true,

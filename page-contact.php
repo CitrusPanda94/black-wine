@@ -2,8 +2,9 @@
 
 <section class="section-contact">
     <div class="container">
-        <h1>The movie - Contact</h1>
-        <p>This is the contact page.</p>
+        <div class="address">
+           
+        </div>
 
         <?php $blurb = get_theme_mod('bw_contact_blurb');
         if($blurb || is_customize_preview()) :
@@ -11,10 +12,19 @@
         echo $blurb;
         endif; ?>
     </div>
-</contact>
+    </section>
 
 
 <?php
 
 get_template_part('template-parts/content');
 get_footer(); ?>
+
+
+ Get Directions →
+WINE TASTING AND CELLAR DOOR
+We are open for wine tastings and sales from 10am to 5pm seven days.
+
++64 3 314 6869 (ext 3)
+tasting@pegasusbay.com
+

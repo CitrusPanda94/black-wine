@@ -54,7 +54,6 @@ if (!function_exists('bw_setup')) :
             $pages = array(
                 array('title' => 'Home'),
                 array('title' => 'Shop'),
-                array('title' => 'Varieties'),
                 array('title' => 'Our Story'),
                 array('title' => 'Blog'),
                 array('title' => 'Contact')

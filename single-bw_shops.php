@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="section-varieties">
+<section class="section-shops">
     <div class="container">
         <h1>Test Single - varieties!!!!!!!</h1>
     </div>
