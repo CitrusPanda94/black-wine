@@ -34,8 +34,7 @@ if (!function_exists('bw_setup')) :
 
         //add theme support - custom logo
         add_theme_support( 'custom-logo', array(
-            'height'      => 40,
-            'width'       => 130,
+            'height'      => 40
         ));
 
         //register menus

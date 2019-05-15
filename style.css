@@ -31,9 +31,13 @@ header nav {
     padding-top: 10px;
 }
 
+.custom-logo {
+    padding-left: 20px;
+}
+
 header nav a {
     padding-right: 15px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Montaga', serif;
     color: #6bc4cb;
     margin: 4px 2px;
     opacity: 0.6;
@@ -75,8 +79,9 @@ header nav a:hover {
     border: none;
     border-radius: 50px;
     color: white;
+    margin-top: 20px;
     padding: 5px 10px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Montaga', serif;
     font-size: 16px;
     transition: background-color 0.5s ease;
 }
@@ -95,9 +100,20 @@ header nav a:hover {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 80px;
 }
+
+
+
+
+.section-vinyards {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
 
 
 /* font-family: 'Pacifico', cursive;
 font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Montaga', serif; */
